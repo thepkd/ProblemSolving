@@ -5,7 +5,7 @@ int mergeSortedintoSorted(vector<int> nums1, int m, vector<int> nums2, int n)
         int temp = nums[i];
         for(j=0; j<m+i+1;j++)
         {
-            if(j!=m+i+)
+            if(j!=m+i)
             {
             if(temp < nums1[j])
             {
